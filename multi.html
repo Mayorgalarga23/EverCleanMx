@@ -7,22 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="css/fontello.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="icon" sizes="32x32" type="image/png" href="img/Logo2.png">
-	<Style type="text/CSS">
-		@import 'CSS/estilos.css';
-		@import 'CSS/fontello.css';
-		@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-		@import url(menu.css);
-		@import url(banner.css);
-		@import url(blog.css);
-		@import url(info.css);
-		.video{
-			height: 480px;
-			width: 640px;
-			margin: 20px;
-		}
-		.video h2{
-			text-align: left;
-		}
+	<style type="text/css">
+		.iframe-container{ position: relative; width: 100%; padding-bottom: 56.25%; height: 0; } 
+		.iframe-container iframe, video{ position: absolute; top:0; left: 0; width: 70%; height: 80%; margin: 20px;}
+		.iframe-container h2{text-align: left; margin: 25px;}
 	</style>
 </head>
 <body>
@@ -34,20 +22,20 @@
 			<label for="menu-bar" class="icon-menu"></label>
 			<nav class="menu">
 				<a href="index.html">Inicio</a>
-				<a href="404.html">Productos</a>
+				<a href="product.html">Productos</a>
 				<a href="about.html">Historia</a>
 				<a href="contacto.html">Contactanos</a>
 				<a href="multi.html">Multimedia</a>
 			</nav>
 		</div>
 	</header>
-	<div style="margin: 60px;" align="center">
-		<h1>Multimedia Oficial</h1><br>
-		<div class="video">
+	<div style="margin: 70px;">
+		<h1 style="margin-top: -10px;">Multimedia Oficial</h1><br>
+		<div class="iframe-container">
 			<h2>Promocional #2</h2>
-			<iframe width="700" height="400" src="https://www.youtube.com/embed/pSdRYdPo7PI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<video src="multi/ECAnimation.mp4" controls width="700" height="400"></video>
 		</div>
-		<div class="video">
+		<div class="iframe-container">
 			<h2>Promocional #1</h2>
 			<video src="multi/EverClean.mp4" controls width="700" height="400"></video>
 		</div>
