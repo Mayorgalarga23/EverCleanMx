@@ -36,39 +36,3 @@
 		width: auto;
 	}
 }
-/*Fondo blanco y aros gris*/
-#infob{
-	background: white;
-	color: #333;
-	text-align: center;
-	padding: 20px;
-}
-#infob .contenedorb{
-	width: 1000px;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.vistas-ecb{
-	margin: 20px;
-}
-.vistas-ecb img{
-	width: 180px;
-	height: 180px;
-	border-radius: 50%;
-	border-color: #333;
-	border: 7px solid #333;
-}
-/*
-@media (min-width: 480px){
-	.vistas-ecb{
-		width: 40%;
-	}
-}
-@media (min-width: 1000px){
-	.vistas-ecb{
-		width: auto;
-	}
-}
-*/
