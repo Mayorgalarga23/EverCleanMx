@@ -27,12 +27,12 @@
 	cursor: pointer;
 }*/
 @media (min-width: 480px){
-	.vistas-ec{
+	.vistas-ec, .vistas-ecb{
 		width: 40%;
 	}
 }
 @media (min-width: 1000px){
-	.vistas-ec{
+	.vistas-ec, .vistas-ecb{
 		width: auto;
 	}
 }
@@ -60,6 +60,7 @@
 	border-color: #333;
 	border: 7px solid #333;
 }
+/*
 @media (min-width: 480px){
 	.vistas-ecb{
 		width: 40%;
@@ -70,3 +71,4 @@
 		width: auto;
 	}
 }
+*/
